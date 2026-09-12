@@ -1,0 +1,70 @@
+@theme {
+  --font-sans: "Plus Jakarta Sans Variable", "Plus Jakarta Sans", sans-serif;
+
+  --color-canvas: #fbf9f5;
+  --color-surface: #ffffff;
+  --color-surface-low: #f5f3ef;
+  --color-surface-container: #efeeea;
+  --color-surface-high: #eae8e4;
+  --color-ink: #1b1c1a;
+  --color-ink-muted: #474555;
+  --color-primary: #4223c8;
+  --color-primary-container: #5b44e0;
+  --color-coral: #b72029;
+  --color-coral-bright: #fe5554;
+  --color-amber: #974c00;
+  --color-mint: #0fb9b1;
+
+  --radius-card: 1.5rem;
+  --radius-control: 0.75rem;
+}
+
+:root {
+  color-scheme: light;
+  font-family: "Plus Jakarta Sans Variable", "Plus Jakarta Sans", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  --surface: #fbf9f5;
+  --surface-dim: #dbdad6;
+  --surface-bright: #fbf9f5;
+  --surface-pure: #ffffff;
+  --surface-low: #f5f3ef;
+  --surface-container: #efeeea;
+  --surface-high: #eae8e4;
+  --surface-highest: #e4e2de;
+  --ink: #1b1c1a;
+  --ink-variant: #474555;
+  --outline: #787586;
+  --outline-variant: #c8c4d7;
+  --primary: #4223c8;
+  --primary-hover: #351aa9;
+  --primary-container: #5b44e0;
+  --primary-soft: #e4dfff;
+  --primary-soft-strong: #c7bfff;
+  --secondary: #b72029;
+  --secondary-container: #fe5554;
+  --tertiary: #974c00;
+  --success: #0b8a84;
+  --success-accent: #0fb9b1;
+  --success-container: #e6faf8;
+  --warning: #d97706;
+  --warning-container: #fff3e0;
+  --error: #ba1a1a;
+  --error-strong: #93000a;
+  --error-container: #ffdad6;
+  --neutral-badge: #eae8e4;
+  --neutral-badge-ink: #474555;
+  --shadow-1: 0 4px 20px -4px rgb(30 27 57 / 0.05);
+  --shadow-2: 0 10px 28px -6px rgb(91 68 224 / 0.12);
+  --shadow-3: 0 20px 40px -10px rgb(30 27 57 / 0.14);
+  --focus-ring: 0 0 0 3px rgb(91 68 224 / 0.18);
+  --content-width: 1200px;
+  --header-height: 80px;
+  --mobile-nav-height: 72px;
+  --radius-sm: 8px;
+  --radius-control: 12px;
+  --radius-subcard: 16px;
+  --radius-card: 24px;
+  --radius-pill: 9999px;
+}

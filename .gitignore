@@ -1,0 +1,12 @@
+# Configurações locais
+.env
+.env.local
+.env.*.local
+/specs
+
+# Dependências e artefatos
+node_modules/
+dist/
+coverage/
+*.log
+.vite/
